@@ -15,7 +15,8 @@ public class TestClass {
         
         CalculateBMI myBMI = new CalculateBMI();
         myBMI.setHeight(1.69);
-        myBMI.setWeight(77);
+        myBMI.setWeight(70);
+        
         System.out.println(myBMI.calculateBMI());
         
     }
