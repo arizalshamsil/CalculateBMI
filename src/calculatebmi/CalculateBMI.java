@@ -10,14 +10,8 @@ package calculatebmi;
  */
 public class CalculateBMI {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-
     public double getHeight() {
+        
         return height;
     }
 
@@ -35,7 +29,7 @@ public class CalculateBMI {
     public double calculateBMI(){
         
         
-        return getWeight()/getHeight()*getHeight();
+        return getWeight()/(getHeight()*getHeight());
     }
     
     private double height;
